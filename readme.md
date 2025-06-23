@@ -120,6 +120,18 @@ The gradio demo would look like the UI shown below:
   </tr>
 </table>
 
+## Clothing Try-On Demo
+We provide a simplified interface for virtual garment try-on. After setting the
+pretrained model paths in `configs/tryon_demo.yaml`, launch:
+
+```bash
+python run_tryon_demo.py
+```
+
+Users can upload a person photo and a garment image, draw rough masks on both
+images and preview the try-on result. See `TRYON_TUTORIAL.md` for detailed
+setup steps.
+
 ## Train
 
 ### Prepare datasets
